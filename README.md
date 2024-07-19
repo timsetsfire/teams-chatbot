@@ -1,16 +1,9 @@
-﻿# EchoBot
-
-Bot Framework v4 echo bot sample.
-
-This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to create a simple bot that accepts input from the user and echoes it back.
+﻿# DR Proxied LLM TeamsBot
+ 
+Bot Framework chatbot example hitting a LLM Proxied by DataRobot MLOps.
 
 ## To try this sample
-
-- Clone the repository
-```bash
-git clone https://github.com/Microsoft/botbuilder-samples.git
-```
-- In a terminal, navigate to `botbuilder-samples\samples\python\02.echo-bot` folder
+- add dr deployment details and credentials in `bots/ai_bot.py`
 - Activate your desired virtual environment
 - In the terminal, type `pip install -r requirements.txt`
 - Run your bot with `python app.py`
